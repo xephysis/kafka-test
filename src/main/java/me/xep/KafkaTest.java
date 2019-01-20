@@ -1,33 +1,30 @@
 package me.xep;
-
-import io.confluent.kafka.serializers.KafkaAvroSerializer;
 import org.apache.kafka.clients.producer.*;
 
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
+import static io.github.benas.randombeans.api.EnhancedRandom.random;
 
 public class KafkaTest {
 
     public static void main(String args[]) {
         Properties kafkaProp = new Properties();
 
-        kafkaProp.put("bootstrap.servers","kafka:9092");
-        kafkaProp.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-        kafkaProp.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
-        KafkaAvroSerializer test;
+        kafkaProp.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"kafka:9092");
+        kafkaProp.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
+                io.confluent.kafka.serializers.KafkaAvroSerializer.class);
+        kafkaProp.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
+                io.confluent.kafka.serializers.KafkaAvroSerializer.class);
+        kafkaProp.put("schema.registry.url", "http://localhost:8081");
+        Producer<String, Customer> producer = new KafkaProducer<String, Customer>(kafkaProp);
 
-        Producer<String, String> producer = new KafkaProducer<String, String>(kafkaProp);
-
-        ProducerRecord<String, String> record = new ProducerRecord<String, String>("test", "Precision Products", "France");
-        try {
-            producer.send(record).get(5000, TimeUnit.MILLISECONDS);
-        } catch (Exception e) {
-            System.out.println("error");
-            e.printStackTrace();
+        while(true) {
+            Customer customer = random(Customer.class);
+            System.out.println(customer);
+            ProducerRecord<String, Customer> record = new ProducerRecord<>("customer", customer.getName(), customer);
+            producer.send(record);
         }
-
-        System.out.println("TEST");
-
     }
 }

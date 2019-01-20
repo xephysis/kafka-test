@@ -128,48 +128,70 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: io.confluent:common-config:5.0.0">
+    <library name="Maven: io.confluent:common-config:5.1.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-config/5.0.0/common-config-5.0.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-config/5.1.0/common-config-5.1.0.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-config/5.0.0/common-config-5.0.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-config/5.1.0/common-config-5.1.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-config/5.0.0/common-config-5.0.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-config/5.1.0/common-config-5.1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: io.confluent:common-utils:5.0.0">
+    <library name="Maven: io.confluent:common-utils:5.1.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-utils/5.0.0/common-utils-5.0.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-utils/5.1.0/common-utils-5.1.0.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-utils/5.0.0/common-utils-5.0.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-utils/5.1.0/common-utils-5.1.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-utils/5.0.0/common-utils-5.0.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/common-utils/5.1.0/common-utils-5.1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: io.confluent:kafka-avro-serializer:5.0.0">
+    <library name="Maven: io.confluent:kafka-avro-serializer:5.1.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-avro-serializer/5.0.0/kafka-avro-serializer-5.0.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-avro-serializer/5.1.0/kafka-avro-serializer-5.1.0.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-avro-serializer/5.0.0/kafka-avro-serializer-5.0.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-avro-serializer/5.1.0/kafka-avro-serializer-5.1.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-avro-serializer/5.0.0/kafka-avro-serializer-5.0.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-avro-serializer/5.1.0/kafka-avro-serializer-5.1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: io.confluent:kafka-schema-registry-client:5.0.0">
+    <library name="Maven: io.confluent:kafka-schema-registry-client:5.1.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-schema-registry-client/5.0.0/kafka-schema-registry-client-5.0.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-schema-registry-client/5.1.0/kafka-schema-registry-client-5.1.0.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-schema-registry-client/5.0.0/kafka-schema-registry-client-5.0.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-schema-registry-client/5.1.0/kafka-schema-registry-client-5.1.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-schema-registry-client/5.0.0/kafka-schema-registry-client-5.0.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/confluent/kafka-schema-registry-client/5.1.0/kafka-schema-registry-client-5.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.github.benas:random-beans:3.7.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/github/benas/random-beans/3.7.0/random-beans-3.7.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.github.lukehutch:fast-classpath-scanner:2.2.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/github/lukehutch/fast-classpath-scanner/2.2.1/fast-classpath-scanner-2.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/github/lukehutch/fast-classpath-scanner/2.2.1/fast-classpath-scanner-2.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/github/lukehutch/fast-classpath-scanner/2.2.1/fast-classpath-scanner-2.2.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: net.sf.jopt-simple:jopt-simple:5.0.4">
@@ -280,6 +302,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/lz4/lz4-java/1.5.0/lz4-java-1.5.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.objenesis:objenesis:2.5.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.5.1/objenesis-2.5.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.5.1/objenesis-2.5.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.5.1/objenesis-2.5.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.scala-lang:scala-library:2.12.7">
